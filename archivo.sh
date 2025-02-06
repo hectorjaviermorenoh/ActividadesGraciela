@@ -1,7 +1,8 @@
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/hectorjaviermorenoh
 
-git pull --rebase origin main
+git pull origin main --no-rebase
+
 
 # Deploy codigo en Actividades Graciela hectorjaviermorenoh
 git remote remove origin
