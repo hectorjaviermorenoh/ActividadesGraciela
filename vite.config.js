@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://hectorjaviermorenoh.github.io/glosariogh-pages',
+  base: 'https://hectorjaviermorenoh.github.io/ActividadesGraciela',
   server: {
     port: 3000
   },
