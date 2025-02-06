@@ -15,7 +15,7 @@ git push origin main
 
 # deploy en gh-pages hectorjaviermorenoh
 git remote remove origin
-git remote add origin git@github.com:hectorjaviermorenoh/ActividadesGraciela.gi
+git remote add origin git@github.com:hectorjaviermorenoh/ActividadesGraciela.git
 npm run deploy
 
 
