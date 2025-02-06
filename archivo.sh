@@ -13,7 +13,10 @@ git commit -m "deployando Codigo"
 git push origin main
 
 
-
+# deploy en gh-pages hectorjaviermorenoh
+git remote remove origin
+git remote add origin git@github.com:hectorjaviermorenoh/ActividadesGraciela.gi
+npm run deploy
 
 
 
