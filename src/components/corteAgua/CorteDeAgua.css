@@ -1,0 +1,15 @@
+/* CorteDeAgua.css */
+.corte-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 1rem;
+}
+
+.corte-imagen {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
